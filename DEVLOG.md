@@ -32,3 +32,18 @@ The current pricing values still need to be verified from official vendor pricin
 
 Plan for tomorrow:
 Connect lead capture to a real backend using Supabase and prepare the database table for audit submissions.
+Day 3 — 2026-05-08
+
+Hours worked: 2
+
+What I did:
+Added a Supabase-backed lead capture flow. Created the audit_leads database table, added a server-side Supabase client, created a POST API route for lead submissions, and connected the frontend capture form to the backend.
+
+What I learned:
+I learned why sensitive backend keys must stay on the server and should not be exposed in frontend code. I also learned how a real SaaS tool stores leads after showing value to the user.
+
+Blockers / what I'm stuck on:
+Transactional email still needs to be connected using Resend, and the public shareable audit URL is not implemented yet.
+
+Plan for tomorrow:
+Add email confirmation through Resend and start working on shareable public audit result URLs.

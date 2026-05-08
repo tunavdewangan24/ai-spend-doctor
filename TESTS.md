@@ -22,3 +22,12 @@ Covers the core audit engine logic:
 6. Calculates monthly and annual stack savings.
 
 All tests passed locally on Day 2.
+## Day 3 manual test
+
+I manually tested the lead capture flow by submitting a sample audit report from the frontend form and verifying that the row appeared in the Supabase `audit_leads` table.
+
+The `/api/leads` route includes:
+- email validation
+- honeypot spam protection
+- basic in-memory rate limiting
+- server-side Supabase insert

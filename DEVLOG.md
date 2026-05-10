@@ -4,52 +4,187 @@
 
 **Hours worked:** 2
 
-**What I did:** Built the first landing page and basic AI spend audit form.
+**What I did:**  
+Built the first landing page and basic AI spend audit form.
 
-**What I learned:** I learned how to structure the project as a real SaaS lead-generation tool.
+**What I learned:**  
+I learned how to structure the project as a real SaaS lead-generation tool.
 
-**Blockers / what I'm stuck on:** Audit logic still needs to be moved into a separate tested file.
+**Blockers / what I'm stuck on:**  
+Audit logic still needs to be moved into a separate tested file.
 
-**Plan for tomorrow:** Add audit engine and write tests.
+**Plan for tomorrow:**  
+Add audit engine and write tests.
 
----
+&#x20;---
 
-## Day 2 — 2026-05-07
 
-**Hours worked:** 2
 
-**What I did:** Separated the audit calculation logic into a dedicated audit engine file and added automated tests for pricing lookup, extra seats, small-team downgrades, high API spend, optimized spend, and annual savings.
+\---
 
-**What I learned:** I learned that business logic should not stay only inside the UI. Keeping audit rules in a separate file makes the app easier to test, debug, and explain during a code walkthrough.
 
-**Blockers / what I'm stuck on:** The current pricing values still need to be verified from official vendor pricing pages and documented in PRICING_DATA.md.
 
-**Plan for tomorrow:** Connect lead capture to a real backend using Supabase and prepare the database table for audit submissions.
+\## Day 2 — 2026-05-07
 
----
 
-## Day 3 — 2026-05-08
 
-**Hours worked:** 2
+\*\*Hours worked:\*\* Around 2 hours
 
-**What I did:** Added a Supabase-backed lead capture flow. Created the audit_leads database table, added a server-side Supabase client, created a POST API route for lead submissions, and connected the frontend capture form to the backend.
 
-**What I learned:** I learned why sensitive backend keys must stay on the server and should not be exposed in frontend code. I also learned how a real SaaS tool stores leads after showing value to the user.
 
-**Blockers / what I'm stuck on:** Need to improve form validation and add better success/error messages for users.
+\*\*What I did:\*\*
 
-**Plan for tomorrow:** Add CI workflow and testing documentation.
+\- Worked on the main audit engine logic for AI Spend Doctor.
 
----
+\- Tried to keep the spending logic separate from the UI so the project structure looks cleaner.
 
-## Day 4 — 2026-05-09
+\- Started preparing the project for proper testing.
 
-**Hours worked:** 2
 
-**What I did:** Added a GitHub Actions CI workflow to automatically run tests and build checks on every push. I also created TESTS.md to document the testing strategy, test framework, and CI process.
 
-**What I learned:** I learned how CI helps verify a project automatically and makes the repository look more professional for reviewers.
+\*\*What I learned:\*\*
 
-**Blockers / what I'm stuck on:** Need to make sure all scripts in package.json are correctly configured for test and build commands.
+\- I understood why business logic should not be mixed directly inside the page code.
 
-**Plan for tomorrow:** Improve project documentation and add more details about pricing data, user interviews, and product metrics.
+\- Keeping logic in a separate file makes the project easier to improve later.
+
+
+
+\*\*Blockers / issues:\*\*
+
+\- The audit result is still basic, so I need to improve the analysis quality.
+
+
+
+\*\*Next plan:\*\*
+
+\- Add tests for the audit logic and check if the output is working correctly.
+
+
+
+\---
+
+
+
+\## Day 3 — 2026-05-08
+
+
+
+\*\*Hours worked:\*\* Around 2 hours
+
+
+
+\*\*What I did:\*\*
+
+\- Added Vitest setup for testing.
+
+\- Wrote basic test cases for the audit engine.
+
+\- Ran the project again to make sure the changes did not break anything.
+
+
+
+\*\*What I learned:\*\*
+
+\- Testing is useful because it gives confidence that the logic is working.
+
+\- Even simple test cases can make a project look more serious and reliable.
+
+
+
+\*\*Blockers / issues:\*\*
+
+\- I still need to add more test cases with different spending examples.
+
+
+
+\*\*Next plan:\*\*
+
+\- Add GitHub Actions so tests can run automatically on GitHub.
+
+
+
+\---
+
+
+
+\## Day 4 — 2026-05-09
+
+
+
+\*\*Hours worked:\*\* Around 2 hours
+
+
+
+\*\*What I did:\*\*
+
+\- Added GitHub Actions CI workflow.
+
+\- Connected the workflow so checks can run automatically after pushing code.
+
+\- Updated testing-related documentation and pushed the changes to GitHub.
+
+
+
+\*\*What I learned:\*\*
+
+\- I learned how CI helps in checking the project automatically.
+
+\- GitHub Actions makes the repo look more professional and organized.
+
+
+
+\*\*Blockers / issues:\*\*
+
+\- I need to verify the final deployment process properly.
+
+
+
+\*\*Next plan:\*\*
+
+\- Improve README and make the project easier to understand for reviewers.
+
+
+
+\---
+
+
+
+\## Day 5 — 2026-05-10
+
+
+
+\*\*Hours worked:\*\* Around 2 hours
+
+
+
+\*\*What I did:\*\*
+
+\- Updated the README with project overview, features, tech stack, setup steps, and author details.
+
+\- Made the repository more readable for anyone who opens it on GitHub.
+
+\- Updated the DEVLOG so my daily progress is properly documented.
+
+
+
+\*\*What I learned:\*\*
+
+\- A good README is important because reviewers first check the project explanation.
+
+\- Documentation also matters a lot, not only coding.
+
+\- Clear setup steps make it easier for others to run the project.
+
+
+
+\*\*Blockers / issues:\*\*
+
+\- Deployment link is still pending.
+
+
+
+\*\*Next plan:\*\*
+
+\- Deploy the project and add the live demo link in README.
+

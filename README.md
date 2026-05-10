@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Spend Doctor
 
-## Getting Started
+AI Spend Doctor is a web app that helps users check their spending habits and get a simple AI-style audit report.
 
-First, run the development server:
+This project is part of my 7-day development challenge where I am improving the project step by step with meaningful commits, documentation, testing, and deployment preparation.
 
-```bash
+## Features
+
+- Modern landing page
+- Spend audit form
+- AI-style spending analysis
+- Supabase backend integration
+- Email-ready lead collection structure
+- Automated testing with Vitest
+- GitHub Actions CI workflow
+- Daily DEVLOG documentation
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Supabase
+- Vitest
+- GitHub Actions
+
+## Project Goal
+
+The goal of this project is to build a practical full-stack web app that can collect user spending details, process them, and generate useful financial insights.
+
+## What I Built
+
+- Created the frontend using Next.js and Tailwind CSS
+- Built the audit logic in a reusable file
+- Added tests for the audit engine
+- Connected Supabase for backend storage
+- Added CI workflow to automatically run checks
+- Maintained a proper DEVLOG for daily progress
+
+## Local Setup
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Run Tests
 
-## Learn More
+npm test
 
-To learn more about Next.js, take a look at the following resources:
+## Build Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Tunav Dewangan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/tunavdewangan24

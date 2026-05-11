@@ -188,3 +188,47 @@ Add audit engine and write tests.
 
 \- Deploy the project and add the live demo link in README.
 
+\---
+
+
+
+\## Day 6 — 2026-05-11
+
+
+
+\*\*Hours worked:\*\* Around 2-3 hours
+
+
+
+\*\*What I did:\*\*
+
+\- Did the final check of the AI Spend Doctor project.
+
+\- Tested the project locally before submission.
+
+\- Checked README, DEVLOG, tests, and build status.
+
+\- Prepared the project for final deployment and assignment submission.
+
+
+
+\*\*What I learned:\*\*
+
+\- Before submitting a project, final testing and documentation are very important.
+
+\- A clean GitHub repo with README, commits, tests, and DEVLOG makes the project look more complete.
+
+\- Deployment is the final step that helps others view the project easily.
+
+
+
+\*\*Blockers / issues:\*\*
+
+\- Need to make sure the live link works properly after deployment.
+
+
+
+\*\*Final status:\*\*
+
+\- Project is ready for assignment submission.
+

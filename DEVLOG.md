@@ -232,3 +232,7 @@ Add audit engine and write tests.
 
 \- Project is ready for assignment submission.
 
+ 
+## Better Changes Update - May 2026 
+- Improved project documentation and commit history. 
+- Updated GitHub contribution progress. 
